@@ -1,0 +1,862 @@
+rule_filterlist_France,blocked_etld
+/script.$domain=amateurfrancais.com|sexefelin.com|tootx.com|tubixe.com|twistedporn.com|vidsexe.com|webchoc.com,4770
+/sw.js$domain=1337x.biz|1337x.st|1337x.to|1377x.to|2shrink.com|9anime.to|9xbuddy.com|9xbuddy.online|9xbuddy.org|9xbuddy.xyz|adshr.ink|adshrinks.com|almstba.tv|bagas31.info|bestfreecams.club|clicknupload.click|clicknupload.club|clicknupload.co|clicknupload.red|clicksfly.com|clk.sh|cloudvideo.tv|cut1.cf|dailyuploads.net|desiupload.co|desiupload.in|downloadpirate.com|drop.download|dropapk.to|eio.io|file-up.org|filerio.in|freevideos24h.com|gomovies.film|gomovieshub.io|gostreams.net|gsurl.in|gsurl.me|hdvid.tv|indishare.org|islyce.com|islyce.gq|istream2watch.com|keeplinks.org|ling-online.net|ling.online|mealip.com|megaurl.in|mevio.me|multiup.eu|multiup.io|multiup.org|offmp3.com|okanime.tv|oko.sh|ovid.online|ovid.tv|patchsoftwares.com|putlocker.ninja|sadeempc.com|sendspace.com|sexu.com|short.pe|sss.xxx|stream2watch.org|tntendirect.com|uii.io|up-load.io|upload.ac|upload4earn.org|uploadproper.net|uploadrar.com|voir-films.com|vosbooks.tv|x1337x.eu|x1337x.se|x1337x.ws|zippyshare.com,1668
+/test.$domain=amateurfrancais.com|sexefelin.com|tootx.com|tubixe.com|twistedporn.com|vidsexe.com|webchoc.com,230
+/delivery/*&zoneid= <+> /ad.*/delivery? <+> /delivery.*?dfp= <+> /delivery?*&ad=,191
+/disclaimer.$domain=blog2mature.com|hentai-tube.fr|leathumb.com|papy-porno.com|porc.com|pornasiatix.com|pornxmovies.com|pornz.fr|secret-amateur.com|sexe2blog.com|sexotor.com|tube2sexe.com|videosallopass.com,174
+_300x600& <+> /300x600/* <+> /300x600. <+> -banniere-300x600- <+> =300x600&,159
+/get/*?zoneid=,135
+"://partner.$third-party,domain=~lopinion.fr|~viator.com|~viatorcom.de|~viatorcom.fr|~viatorcom.nl|~viatorcom.no|~viatorcom.se",112
+/pab-ssl.js,99
+/wp-content/plugins/quick-adsense-reloaded/*,86
+/license.$domain=amateurfrancais.com|sexefelin.com|tootx.com|tubixe.com|twistedporn.com|vidsexe.com|webchoc.com,71
+300x250.gif| <+> digitalocean.gif|,61
+-336x280. <+> =336x280& <+> _336x280.,51
+=970x90& <+> =970x90_ <+> /970x90.,49
+-970x250. <+> _970x250. <+> -970x250_,48
+_ads_banner/ <+> /banner_pub. <+> /ads_banner/* <+> /banner/top? <+> /banner-ads <+> /banner_728x90 <+> /banner_ads? <+> .ad/banner/ <+> _ads/banner/ <+> /banner/ads- <+> /banner/160 <+> _ads_banner& <+> _banner_pub. <+> /banner_300x250 <+> /banner/728 <+> /banner/ads.js <+> .ads/banner/ <+> _ads_banner_,48
+/ads/?subid=,45
+/300x300.gif <+> _300x300.gif <+> /pub-300x300/* <+> -300x300.gif,44
+/delivery/ajs.,44
+/ads.*/www/* <+> ://fr.*/ads? <+> /pub/*/ads.,44
+/Web_Ad_ <+> /Web_banner_ <+> /Web_Ad. <+> /web/bannieres/*,43
+/pub-ads/* <+> /ads-1- <+> /ads-2- <+> /ads_block <+> -ads/ads. <+> /ads/728x <+> ://fr.ads. <+> -ads/920x <+> /b/ads/* <+> /ads/v. <+> /ads-banner <+> /ads/160x <+> /a.ads. <+> /fr-ads. <+> -ads-920x <+> /ads/300x <+> .fr/ads_ <+> .fr/ads/ <+> /ads/970x <+> .fr/ads- <+> /ads/4. <+> _fr/ads/ <+> /ads.xml <+> /ads-3- <+> /ads/468x <+> -pub-ads/ <+> /ads-4- <+> /ads?p=,41
+/thirstyaffiliates/*,37
+?clicktag=,35
+_300x250@ <+> /pub-300x250. <+> /ad_300x250. <+> _300x250/ <+> /ad(300x250)/* <+> -300x250_pub. <+> -ads-300x250. <+> _ban-300x250. <+> -banner-300x250. <+> -pub-300x250.,29
+-adv-2. <+> .com/adv.js <+> -adv-1. <+> /js.adv. <+> .fr/adv? <+> /js/adv_ <+> /adv/www/* <+> .fr/adv. <+> .php?img_adv= <+> _adv.js <+> -adv-3. <+> /banner_adv. <+> /adv.htm <+> /adv/z/? <+> /adv_js. <+> /adv/banners/* <+> .fr/adv_ <+> /adv/ads. <+> /adv_banner. <+> .fr/adv/ <+> /img/adv_ <+> .fr/_adv/ <+> /adv/ad_,29
+_publicite_ <+> .publicite. <+> /publicite/* <+> _publicite. <+> =publicite& <+> /publicite. <+> /publicite_,28
+://creative.*/widgets/*&campaignId=*&creativeId=$third-party,27
+/ad-inserter/* <+> /ad-inserter-pro/*,27
+/images/*_ads/ <+> /anuncy/*/ads/ <+> /static/*/ads/ <+> /afiliasi/*/banners/,25
+/ads/250x250- <+> =250x250& <+> /ads/250x250. <+> -250x250.gif,24
+://xml.*/redirect?,24
+.ads.*?zone= <+> /zone?pub=*&zone_id= <+> /a?*&zone_id=,22
+.fr/*/ads/$domain=~lemde.fr|~sellplus.fr|~yoopies.fr,21
+://adx. <+> /adv/adx. <+> /adx.js,20
+&hasads=,20
+/uploads/*/ads. <+> /uploads/*/ads-,20
+/pub_250_ <+> /ads_250_ <+> -300-x-250- <+> /300-x-250- <+> /pub-300-250- <+> _300-x-250_ <+> ?300&250& <+> -300-x-250. <+> /300-x-250. <+> /ads/300/250/* <+> /300&250. <+> /300_250-2.,19
+://ad.*/ad/*.gif <+> /ad.*/ads. <+> /ads/*_ad_ <+> /pub/*/ad.,19
+/ads.*/banner/* <+> /banner/*/300x250 <+> =banner_*goclick& <+> /Ads*/banner_ <+> ://banner.*utm_ <+> ://banner.*click <+> /banner/*/728x90,18
+/images/sponsors/*$third-party,17
+-affiliate-banner- <+> /affiliate/banner. <+> /affiliate_ads_ <+> .fr/affiliate/ <+> .php/affiliate/ <+> _affiliate_banner_ <+> /affiliate.js,17
+=120x600&,17
+/publicity. <+> .net/publicity/ <+> .fr/publicity/,14
+/werbebanner-ad. <+> _werbebanner_,14
+%*.juicyads.,13
+/wp-content/plugins/easy-affiliate-links/*,13
+/ad_js/* <+> /ad/js/banner <+> /js_a_d_s. <+> .xyz/js/ads/ <+> /ad.js?_= <+> /js/pub.js <+> ://ads-js.,13
+/cdn/affiliates/* <+> .net/affiliates/ <+> /images/affiliates/* <+> /affiliates/media/banners/* <+> /affiliates/images/banners/* <+> .fr/affiliates/ <+> /affiliates/banners/*,12
+_ad_images_ <+> /ads-ad- <+> -ad-content- <+> -ad_ads. <+> /ad_fr. <+> /ad/ads. <+> /ad-ads.,12
+.ru/s/images/banner/$third-party <+> .ru/i/banners/$third-party <+> .ru/s/images/banners/$third-party <+> .ru/banner/$third-party <+> .ru/i/banner/$third-party <+> .ru/banners/$third-party,11
+/publicite-$domain=~publicite-decor.fr|~publicite-lepeut-dole.fr,11
+.adv?*_id= <+> ://promo.*?site_id= <+> /banner/*&site_id= <+> /banner/*?site_id=,11
+/advertisement? <+> /widget.advertisement. <+> /adblock/advertisement-,11
+/wp-content/banners/*$third-party,11
+/native-ad/* <+> -native-ad-,11
+/pub/*-300x250. <+> /pubs/*-300x250. <+> /Ad-*-300x250. <+> /ads/*-300x250.,10
+/ai/s/s/su.php?,10
+_728x90(2). <+> =728x90_ <+> _728x90@,10
+?zones=*&blockcampaign=,10
+_ad_campaign_ <+> /banner_campaign_,9
+/banners/ads_ <+> /banners-pub/* <+> /wp-content/uploads/wp-banners/* <+> /banners/fr.ad. <+> /banners-ads/* <+> /ad/banners_ <+> /banners/ad- <+> /banners/pub. <+> /banners/pub- <+> -banners/ads_,9
+.com/sponsors/ <+> /sponsors/banner_,9
+/wp-content/themes/*/ads/*,9
+"://syndication.$~subdocument,third-party",9
+/dfp-adblock- <+> =adblock_ <+> /adblock.php <+> /adblock_banners/*,9
+/jsk?zoneid=,9
+-320x480.,8
+/banners/*_ads_ <+> /ads.*/banners/*,8
+?728&90& <+> /728-x-90. <+> -728_90. <+> _728-x-90_ <+> -728-x-90. <+> /ads_90_728. <+> /ads/728/90/* <+> /728-x-90- <+> -728-90-1. <+> -728-x-90-,8
+/player/*/ads.,8
+/iframe.*?idzone=,8
+?style=468x60- <+> _468x60& <+> _468x60@,7
+/pub/pub.gif <+> _pub.gif <+> /pub/pub- <+> /images_pub/pub_ <+> /pub/pub_,7
+?sponsor=*&sId= <+> ://ad.*&sid=,7
+/jquery.dfp. <+> -jquery.dfp.,7
+%22request_id%*%22idzone%,7
+/inread_ <+> /inread.,6
+.AdTech& <+> .adtech.,6
+/api.*/ads?,6
+-300x350-,6
+/adscript.js,6
+=dynamic_banner&,6
+/mobile-ad/* <+> -ad-mobile.,6
+&ADMode=,6
+.cc/ad/,6
+&ad_count=,5
+/ads/popup- <+> /popup-pub- <+> .net/popup.js <+> _popup_pro. <+> .com/popup.js,5
+/ai/s/s/js/ssu.v2.js,5
+-160-x-600- <+> -160_600. <+> /160_x_600 <+> /160-x-600- <+> /160-x-600. <+> _160-x-600_ <+> ?160&600& <+> -160-x-600.,5
+/ai/s/s/js/m/im.js <+> /ab_im_desktop_b.,5
+.com/bnr/ <+> /bnr/468. <+> /bnr/468/* <+> /bnr/ads/* <+> /bnr/300/* <+> /bnr/ad/*,5
+/zone?*&random= <+> ://serve.*?random=,5
+/adscores/*,5
+/twitter-ads.,5
+&ad_unit_ <+> _ad_unit.,5
+/960-80.gif <+> /960-120.gif,5
+/promo-banner.$third-party,5
+/adsview. <+> /adsview/*,5
+/ad/*/pjs.js,5
+/syndication.*&idzone=,5
+/libs/ads.,5
+/affiliate.min.js,5
+/adform.,5
+/upload/ad/* <+> /upload/adv/*,5
+/ads/gif/* <+> /promo/gif_banners/* <+> /gif/sponsor_ <+> -300x250.gif? <+> .gif?partner=,4
+/bens/vinos.js,4
+/redirector.*_ads,4
+/sw.*.js?promo= <+> ?tag_id=*&sw_url=,4
+?affiliateCode=,4
+/adx-dir-,4
+/adsenseloader/* <+> /jquery.adsenseloader. <+> /adsenseLoader.,4
+=videoAd&,4
+/images/istripper/* <+> /iStripper-,4
+&aduid=,4
+/temp/popunder.js <+> -popunder- <+> =popunder&,4
+/ad/*/300/* <+> /ads/*/300_ <+> /pub/*/300_300_,4
+/inc/ezcl.,4
+_ads_one_,4
+/pub/300. <+> /300_x_250 <+> /pub_300. <+> -pub-300- <+> _banniere-300. <+> _adv_300. <+> /adv_300_ <+> /pub/300_top. <+> -banner-300. <+> /adv_300.,4
+.ir/ad/ <+> .ir/ads. <+> .ir/ads/,4
+-home-ad-,4
+/ads-img/* <+> /img/_ad/* <+> /img/ads.,4
+/mads/*,4
+/ads_120_ <+> -120-x-600- <+> /ban_120_60_ <+> /468-120. <+> /120-x-600- <+> -120-600- <+> /120-x-600. <+> /ads/120/600/* <+> -120-x-600. <+> _120-x-600_ <+> /publi_120_,4
+/eaCtrl.js,4
+/get_affiliate_ <+> /ads/get_,4
+&adposition=,4
+?adTagId=,4
+/delivery/*?bannerid=,3
+_46860_ <+> /banner_46860. <+> _banner_46860. <+> /img/46860.,3
+/ezais/dynamic?,3
+/affiliate-butler-,3
+.org/ads.,3
+://ad.*?pid= <+> /adv/*?pid= <+> /ad-*/serve?pid=,3
+/show_std.php?,3
+/affiliates-landing-,3
+://pub.*?zoneid= <+> ?r=*&zoneid= <+> /banner-*?zoneId= <+> ?zoneid=*&r=,3
+?style=160x600- <+> =160x600_,3
+/pub_iframe. <+> /ads-iframe- <+> /banner_iframe. <+> =iframe_pub& <+> /banner/iframe? <+> /pub_iframe_ <+> /Pub.php?iframe= <+> _pub_iframe. <+> /iframe_pub. <+> /iframe_pub_,3
+/ad/*/iframe? <+> /ads/*/iframe?,3
+_display_ad_ <+> /display/ads_ <+> /display/ads. <+> -display-ads_ <+> /popup-display-pub. <+> /display_pub. <+> /banner_display.,3
+/publicites/* <+> /publicites.,3
+/adrequest/*,3
+/banger.js?cb=,3
+/dfp/dfp. <+> /dfp_ad/* <+> /pub/dfp. <+> /js//dfp. <+> /iframe_dfp. <+> /pub/dfp/* <+> /pubs/dfp/*,3
+/ads.*?site=,3
+/banners/250X300. <+> /banner/250X300. <+> _250x300_,3
+/delivery/ck.,3
+.php?*&b=728x90 <+> /ads/*.php?_= <+> .php?*&bannerid*campaignid= <+> .php?*&b=160x600 <+> .php?*&b=468x60 <+> .php?*&b=300x250,3
+?ADFassetID=,3
+_adunit= <+> =adunit/,3
+?pub_id= <+> .id/ads. <+> /banniere.php?id= <+> .adv?id=,3
+/banners?tid=,3
+://adss. <+> /adss.htm,3
+//st-n.*/js/a.js,3
+/ads?key= <+> /click.php?key=,3
+/xpopup.,3
+.aspx?adv=,3
+/amazonaffiliate. <+> /amazonaffiliate-,3
+-viewability.,3
+_300_600.,3
+/banner?sid=,3
+/affiliate/*/banners/* <+> /affiliate.*/banner,3
+://cdn.ads. <+> /cdn.adv. <+> /cdn-ads- <+> ://cdn.ad. <+> -ads-cdn. <+> /cdn/banners/*,3
+/static/t/b.js <+> /static.ads- <+> /static-ads.,2
+-240x90-,2
+/videojs.adss. <+> /videojs-ads/*,2
+/gfx/banners/*,2
+?adRef=,2
+||viamichelin.*/img/partners/,2
+/adformat.,2
+/ads/*-habillage- <+> /ads/*_habillage_,2
+/comunes/ads/*,2
+/autopromo.$domain=750g.com|alibabuy.com|allocine.fr|cap-cine.fr|chartsinfrance.net|cotecine.fr|easyvols.fr|easyvoyage.com|get-the-look.fr|jeuxactu.com|lebonguide.com|lestream.fr|millenium.gg|musiquemag.com|ozap.com|plurielles.fr|purebreak.com|purepeople.com|puretrend.com|shopoon.fr|terrafemina.com|villaschweppes.com,2
+/ads?sz=,2
+/AdsController.,2
+/ntfc.php?p=,2
+_adco_,2
+/r18/banner/*,2
+/livewebcam/?id_affilie=,2
+/mobilead.,2
+/adv-out/? <+> .fr/js/out.js <+> .com/js/out.js <+> /out?zoneid=,2
+-970-x-90- <+> -970-x-250. <+> _970-x-90_ <+> _970_90_ <+> /970-x-90- <+> /970-x-90.,2
+/72890.gif <+> /72890.js <+> /media/72890. <+> /pub_72890_,2
+/728x90px. <+> /728x90px- <+> /728X90px_,2
+?Page=*&Width=300&,2
+.adxcore.,2
+/affiliates/promotools/* <+> /promotools/rotation. <+> /promotools/popup/* <+> /promotools.static.js,2
+/promo/bannieres/* <+> /bannieres/habillage. <+> /pub/bannieres/* <+> ://bannieres.,2
+/adfuel- <+> /adfuel/*,2
+_banniere-728. <+> /adv_728_ <+> /pub/728. <+> -banner-728. <+> _pub_728. <+> /ads/2-728. <+> /adv_728. <+> /728-ad- <+> _ads_728. <+> _adv_728. <+> /pub_728_ <+> /pub/728_ <+> /ads/3-728.,2
+?tour=*&campaign=$third-party,2
+/adblockchecker.,2
+&adPlayhead=,2
+/pub/banniere/* <+> /pub/banniere_ <+> /banniere-pub- <+> /banniere_pub.,2
+/182x600/*,2
+/Siropu/AM/display.min.js <+> /Siropu/AM/display.js <+> /data/Siropu/images/*,2
+/ad_bottom_ <+> /ads/bottom_ <+> /banner/bottom?,2
+_personalized_ads,2
+-Block-ads- <+> /Ad_block. <+> /ad-block.,2
+/ad2-920- <+> /ads/ad2. <+> /ad2/show. <+> /core/ad2/*,2
+/adaptive_*?type=ads&,2
+/adserver-us.,2
+.productads.,2
+/custom/ads.,2
+/ad3_ <+> /ad/ad3/* <+> _GIF_AD3_ <+> /core/ad3/*,2
+://go.*?zoneid= <+> /ads.*/go. <+> ://go.*&zoneid=,2
+/ads/ad1. <+> /ad1-920- <+> /ad1/View.,2
+/servlet/effi.show?,2
+/in-stream-ad-,2
+||tripadvisor.*/partner/$third-party,2
+/c.amazon-adsystem.com/*,2
+.click/banner/ <+> /ads/click/* <+> .click/pub?id= <+> /click?pub=,2
+.com/adv1/? <+> .fr/adv1/?,2
+||com/wnload?a=*&tz=$third-party,2
+/reactAds. <+> /reactAds-,2
+-ad-script- <+> /ads_script_ <+> /pop/script. <+> /script/Pub.php?id= <+> /ad-script. <+> /ads_script. <+> /promo/script_,2
+_jx.ads/,2
+/userfiles/banners/* <+> /userfiles/ads/*,2
+/pu/*?psid=,2
+||kiev.ua^$third-party,2
+/wp-content/plugins/mts-wp-in-post-ads/*,2
+/img/sponsorships/* <+> /images/sponsorships/*,2
+://clk.*/click?,2
+/ad/view. <+> _ad_view_ <+> _ads_view/,2
+/shareaholic/* <+> /shareaholic.js,2
+/myadvertisements.,2
+/pub-bandeau- <+> /bandeau_pub_ <+> /bandeau-pub- <+> /pub/bandeau_ <+> /img-bandeau-pub/*,2
+?468&60& <+> _468-x-60_ <+> /ads_60_ <+> /468+60. <+> -468-x-60- <+> /468__60_ <+> /ads/468/60/* <+> -468-x-60. <+> /468-x-60- <+> .468.60.gif <+> /468-x-60.,2
+?ad_sub=,2
+-960x80.,2
+/ads120.,2
+||beginningstock.com^,1
+||follisspooler.com^,1
+||remainmother.com^,1
+||regie-agricole.com^*/pubs^$third-party,1
+://reclame.,1
+/npawAdAdapter.,1
+||shop.pe/widget/,1
+||allegemagnanimityensue.com^,1
+||knucklygingely.com^,1
+/intellitxt/front.,1
+||adleadevent.com^$third-party,1
+||developpez.com/template/offres.php?,1
+"||eurolive.com^$~image,third-party",1
+/wp-content/plugins/bazooka-shopping/*,1
+||yonminuner.com^,1
+||turfomania.fr/*-publicitaire/,1
+||midgerelativelyhoax.com^,1
+||capinfoproreport.batiactu.com^,1
+||mickleramiant.space^,1
+/grafik/ads/*,1
+/regie.*/pub/*,1
+||parchicky.com^,1
+.js?advertID=,1
+||pafutos.com^,1
+||equirodi.com/images/pub/,1
+||appsha1.cointraffic.io^,1
+/in_ad_new. <+> /new/pu.js <+> /ads/new/*,1
+||affiliatable.io^$third-party,1
+||forumconstruire.com/img/letsgo/,1
+||bestcontentcost.top^,1
+||adwise.bg^$third-party,1
+||7x4.fr^$third-party,1
+||adten.eu^$third-party,1
+||jumia.*/banners/,1
+||shoosh.co^$third-party,1
+||adwidecenter.com^$third-party,1
+||mdhcdn.com^*/banner_,1
+||svonm.com^$third-party,1
+||cannonclam.com^,1
+||fusacq.com^*/images/pub.gif,1
+||digidip.net^$third-party,1
+||sidehaffit.com^,1
+||ojrq.net^,1
+||turf-fr.com/images/*x250.,1
+/promoredirect?key=,1
+||location-etudiant.fr/pubs/,1
+||hentaiheroes.com^$third-party,1
+||adoric.com^$third-party,1
+||smartstream.tv^$third-party,1
+||co^*?zoneId=,1
+/wadsAdsLoaded/*,1
+||whoer.net^*/vpn-,1
+||jeu-tarot-en-ligne.com/pubs/,1
+||admysports.com^$third-party,1
+/adv/*/banner/* <+> /adv/*_468 <+> /adv/*_728,1
+.mk/ads/,1
+||epnt.ebay.com/static/epn-smart-tools.js,1
+://res.ads.,1
+/adsmanager.js,1
+||adverline.com^$third-party,1
+||ctb.intersport.fr^,1
+||adserver.pm^$third-party,1
+||sameksscavage.com^,1
+||holyclock.com^$third-party,1
+||tecunalupine.com^,1
+||whizzerrapiner.com^,1
+/pop.php?said=,1
+/ads_video. <+> /video/pub- <+> ://video-ads.,1
+/sdkconfig.ad.,1
+/newpromo.,1
+://ad.*/dynamic/,1
+.ad4mat.$domain=~ad4mat.com,1
+||facebook.com/tr/,1
+||sfstatic.net/build/js/chunk~inpagePush2-js-main-js,1
+||admachina.com^$third-party,1
+||non.li^$third-party,1
+||mvideoporno.xxx/wp-content/uploads/*/porno,1
+"||smartclip.net^$~object,third-party",1
+||adme-net.com^$third-party,1
+||sfstatic.net/build/js/chunk~pBlock-js-main-js,1
+||ad.publicidees.com^,1
+||mediaathay.org.uk^,1
+||stat.ovh^,1
+||azurewebsites.net/widget/,1
+/kill-adblock/*,1
+||ad.genybet.fr^,1
+/acceptable.$~script,1
+||forumconstruire.com/letsgo/,1
+://ad.*/embed.,1
+||play-asia.com^$third-party,1
+/ad_setting?,1
+||viahelium.com^$third-party,1
+/clic.php?promoid=,1
+||tenlinebramah.com^,1
+/cdn.unblockia.com/*,1
+||zmctrack.net^$third-party,1
+||curvedheldideal.com^,1
+||dorcelcash.com^$third-party,1
+||360tracking.fr^$third-party,1
+||vdo.ai^$third-party,1
+||cdn.playwire.com^$domain=filehippo.com,1
+||static.wui.fr/widget-uptogo/$third-party,1
+||torrentgalaxy.to/common/images/*-sc.png,1
+||beachinfinitegag.com^,1
+/customdata/banner/*,1
+||static.pornovore.fr/zboobz/,1
+/delivery/rta/*,1
+||hydrax.net^,1
+||winds-up.com/pub/,1
+||largus.fr/*/includes/javascript/advertising/,1
+_adagency_,1
+||dopykedges.com^,1
+/eas/ads/*,1
+||xxxtarget.com^,1
+||iodinsbezette.com^,1
+/publicidadsetup/*,1
+||rutrk.org^$third-party,1
+||gauleporno.xxx/assets/js/head.,1
+||neriumlimn.com^,1
+||i8xkjci7nd.com^,1
+||dux0knkimndc1.cloudfront.net/images/pub/,1
+||d2r44jb1nipto0.cloudfront.net^,1
+/core-ads- <+> /core/ads_,1
+||akamaized.net/images/banner/,1
+||faksofta.net^,1
+||cambro.tv/player/html.php,1
+||salaire-brut-en-net.fr/wp-content/*/img/banners/,1
+||go2cloud.org^*?offer_id=,1
+||expansioneggnog.com^,1
+||cashesdungier.com^,1
+||bigbolz.com^$third-party,1
+/wp-content/plugins/wp-banners/*,1
+||trezor.io^$third-party,1
+||pons.com/p/files/dict_images/widgets/,1
+||plancul-gratuit.*/popupPerso/,1
+/ad300-,1
+/728x90Blue.,1
+||sddan.com^$third-party,1
+/sw/pub.js,1
+_pop.php?z= <+> /assets/pop.js <+> /pop.php?id= <+> /pop.php?id_ <+> /banner/pop/* <+> /pop-ads. <+> /pub/pop.,1
+/image/ad.,1
+/ads_scripts/* <+> /scripts/adv_ <+> /scripts-pub.,1
+/crakrevenue/*,1
+||freecounterstat.com^$third-party,1
+/ads/slider_,1
+||missena.io^,1
+||ruedesjoueurs.com/images/campagnes/habillage/,1
+||aurangkavas.com^,1
+/assets/adn-,1
+||ledgerwallet.com/images/promo/,1
+||benzoylchaitra.com^,1
+-ad-bar/ <+> -sponsor-bar.js,1
+||octea.com^$third-party,1
+||getresponse.com^$third-party,1
+://afflight.$third-party,1
+||vidsrc.to/lm/,1
+||goo.gl^$domain=gum-gum-streaming.com,1
+||waffiemoted.com^,1
+/re.clame/*,1
+||vzaar.com^$domain=filehippo.com,1
+||brsimg.com/pub/,1
+||ledevoir.com/documents/image/pub/,1
+||promo.japanhdv.com^,1
+||winamax.fr/img/banners/,1
+||s3.amazonaws.com^*/ads/,1
+=GetAdHtml&,1
+||ready-for-download.com^,1
+||tpmedia-reactads.com^$third-party,1
+||octopidroners.com^,1
+||mrmserve.com^$third-party,1
+||suppressedbottlesenjoyable.com^,1
+||elainevetoed.com^,1
+||discovernative.com^,1
+||partners.tremorhub.com^,1
+/deals.*/banners/*,1
+||conduit.com^$third-party,1
+/choixPubJS.,1
+||bdgest.com/prepub/,1
+||postinabioses.com^,1
+/popup.*&ads= <+> /popup.*&pub=,1
+||tools.prnewswire.com^$third-party,1
+||homecinema-fr.com/images/,1
+/ads/spot_code. <+> /ads?spot_,1
+://engine.*&subid=,1
+||sedgygalways.com^,1
+/jquery.fake.,1
+||mbidpp.com^,1
+||videoplaza.tv^$domain=commentcamarche.com|commentcamarche.net|journaldesfemmes.com|journaldunet.com|linternaute.com,1
+||agamaevascla.top^,1
+||developpez.com/show_i.php,1
+||seneweb.com/dynamic/modules/banners/,1
+/bannercode-,1
+||fluencydepressing.com^,1
+||pepsia.com^$third-party,1
+/footerads_,1
+||fsx.i-run.fr^,1
+/p_under_ <+> /p_under.,1
+||adsupplyads.net^$third-party,1
+||opti-digital.com^$third-party,1
+||godaddy.com/getSeal?,1
+||awin1.com/awclick.php?,1
+||digital-metric.com^$third-party,1
+||bedetheque.com/javascript/campagne?,1
+||secureanalytic.com^$third-party,1
+/ad-footer. <+> -ads-footer. <+> /footer-ad/*,1
+/zerg-inf-multi.js,1
+-ad160x600. <+> _ad160x600.,1
+/banners/150x60. <+> /banner/150x60.,1
+/ads_rotator. <+> ://rotator. <+> /partners/rotator. <+> /ad-rotator.,1
+||jygotubvpyguak.com^$third-party,1
+||turbo.fr/themes/turbo/img/333x50-,1
+||sle.pagesjaunes.fr^,1
+||pub.le360.ma^,1
+||batiactu.com/sites/all/libraries/bati/cronjobs/specials.js,1
+||zebestof.com^$third-party,1
+||piximedia.com^$third-party,1
+||up-banner.wavecdn.net^,1
+||lesmobiles.com/img/skins/,1
+||clodderpickmaw.com^,1
+||eecmauks.net^,1
+/advertise2.,1
+||clickbank.net^$third-party,1
+||getpublica.com^$third-party,1
+||facebook.com/ajax/qm/,1
+||easy-rencontre.com^$third-party,1
+||vidmoly.to/static/vastAD.js,1
+||calepinphrasal.com^,1
+/script/*&cbiframe=*&cbkeywords=,1
+||tokingsash.com^,1
+||autoplus.fr/wp-content/plugins/voiture-occasion/,1
+||ams.cdn.arkadiumhosted.com/advertisement/display/*/display-ads.js,1
+||plancul-gratuit.*/disclamer.,1
+"||laredoute.com/marketing/$third-party,domain=~laredoute.be|~laredoute.ch|~laredoute.co.uk|~laredoute.com|~laredoute.es|~laredoute.fr|~laredoute.gr|~laredoute.hr|~laredoute.it|~laredoute.kr|~laredoute.lu|~laredoute.ma|~laredoute.nl|~laredoute.pl|~laredoute.pt|~laredoute.ru|~laredouteliban.com",1
+/sas-banner- <+> /banner/sas-,1
+||zonebourse.com/content_,1
+||static.lefigaro.fr/figads/,1
+/regie_pub. <+> /regie_pub/* <+> /regie.js <+> _regie/aff.,1
+||adnxtr.com^$third-party,1
+||fiches-auto.fr/_carre_300_,1
+||lothlyunfaith.com^,1
+||plx.tukif.com^,1
+||sfstatic.net/build/js/chunk~propellerPush-js-main-js,1
+||france-troc.com/includes/inc_bandeau.php?,1
+||camsoda1.com/promos/$third-party,1
+||acrasiatickles.com^,1
+||ailcloister.com^,1
+||hostileconductive.com^,1
+?adroll_adv_id=,1
+||batiactu.com^*/partenaire/,1
+||adback.co^$third-party,1
+||bridalplums.com^,1
+||weightfeathersoffhand.com^,1
+||cassockknyazi.com^,1
+||pwspace.com^$third-party,1
+/WebAd_,1
+||youborafds01.com^$third-party,1
+||mirando.de^$third-party,1
+||escortspots.com/static/bn/,1
+||dailymotion.com^$domain=mavanimes.co,1
+||sarmady.net^$third-party,1
+/wgAds.,1
+||igg-games.com/wp-content/uploads/2024/03/fhhd-1.jpg,1
+_adreaper/,1
+||clubpoker.net/medias/images/club-poker/habillages/,1
+||lemondeinformatique.fr/ajax/recuperation-pub.php?,1
+/skipad.,1
+/zerg-inf.js,1
+||coincheck.com^$third-party,1
+||accidentdemocracy.com^,1
+-1200x120.,1
+||armhighlyexpress.com^,1
+||adpaths.com^$third-party,1
+||widespace.com^$third-party,1
+/ads13.,1
+||free-strip-games.com/images/banners/,1
+||1baiser.com/image/$third-party,1
+||rabbitsfreedom.com^,1
+.advertica-,1
+.ru/uploads/banner/ <+> .ru/uploads/banners/ <+> .ru/ads.,1
+?advert_type= <+> /advert/pop/* <+> .xyz/advert/,1
+||ntl.cloud^$third-party,1
+/delivery/ifrm.,1
+||e-media-concept.com/medias/,1
+/banniere.*?said=,1
+/amp-ad-exit-,1
+||dampdock.com^,1
+.html?placement_id=,1
+||pornburst.xxx/assets/js/head.,1
+||valourjaguars.com^,1
+||glashanburg.com^,1
+&adsExpected=,1
+/gdfp.js? <+> -gdfp-server.,1
+||strpjmp.com^$third-party,1
+/richmedia.adv?,1
+||huppontic.com^,1
+-banner/?*&subAffId=,1
+/popup1.js,1
+||arc.io/widget$third-party,1
+||cloudfront.net^$domain=anyanime.com|ay.gy|brain-magazine.fr|citethisforme.com|ddl1.best|despair-paradise.com|easybib.com|esgentside.com|filmuptobox.net|gamecopyworld.click|gamecopyworld.eu|gentside.com|gentside.com.br|gentside.de|getpublica.com|gogoanime.io|gorillavid.com|inkapelis.com|istream2watch.com|maquillage.com|maxisciences.com|namemc.com|ohmirevista.com|ohmymag.com|ohmymag.com.br|ohmymag.de|pausefun.com|pausepeople.com|pelisplus.to|remedes-de-grand-mere.com|replaymod.com|solidfiles.com|stream2watch.org|tokenfly.pw|uploadcrazy.net|vercanalestv1.com|vosbooks.tv|watcheng.tv|zippyshare.com|zlshorte.net,1
+||tpctrust.com^$third-party,1
+||meilleurduweb.com/images/pub/,1
+?style=300x250-,1
+||pub.groupe-ldlc.com^,1
+/affiliates/*_banner. <+> /728/*-affiliates-,1
+-pub/prod/$third-party,1
+||grtyi.com^,1
+||compolegimmer.com^,1
+/ads/footer1.,1
+/rek.*&zoneid=,1
+"||yospace.com^$~object,third-party",1
+||ruggownpolacca.com^,1
+||onclckinp.com^,1
+||sherpa.agoda.com^$third-party,1
+||ouedkniss.com/medias/images/,1
+?ufuad=,1
+.es/anuncios/,1
+/ads14.,1
+||cdn.citytourgirls.com/static/bn/,1
+||s.beop.io^,1
+||partenaire.leparticulier.fr^,1
+||adintop.com^$third-party,1
+||adop.cc^$third-party,1
+||shop.mango.com^$third-party,1
+||tacticwane.com^,1
+/bnrs/yn_bnr.,1
+||go2yd.com^,1
+/adx-instream.,1
+/reloadads.,1
+||adtive.com^$third-party,1
+||cpmstar.com^$third-party,1
+||mediavoice.com^$third-party,1
+||vodunkand.com^,1
+||adpicker.net^$third-party,1
+/eureka.js,1
+||como.com^$third-party,1
+||synonymes.com/storpub/,1
+/adinit?,1
+||travelaudience.com^,1
+||binance.org^$third-party,1
+||my.aliexpress.$third-party,1
+||vakarm.net/css/sprite_vkm_2.css,1
+||hentai-paradise.fr/getblock2,1
+||adultempire.com/bn/,1
+.de/ads? <+> .de/ads_,1
+||facebook.net^*/fbds.js$third-party,1
+||finiteobjscan.com^,1
+/ads_fol_,1
+/RdmFtrs2.js,1
+||lowseceste.com^,1
+||frayedpause.com^,1
+||autojournal.fr/wp-content/uploads/autojournal/2022/04/300x160.jpg,1
+/ads/v1/*,1
+||bdgest.com/habillages/,1
+/pub300. <+> /pub300-250.,1
+/ads/pages/* <+> _pages_ad. <+> /pages_ads.,1
+||buyfrightencheckup.com^,1
+||adsensecustomsearchads.com^$third-party,1
+||politpastier.com^,1
+/zone/*/?autocamp=,1
+||stripchat.com^,1
+||camsoda.com^$third-party,1
+||pxltgr.com^$third-party,1
+_480x250.,1
+||yts.mx/*.gif,1
+||artannagentlemen.com^,1
+||hedonicterces.website^,1
+||temtamias.com^,1
+/assets/adf- <+> .php?adf_in=,1
+||grtyb.com^,1
+/banner_ads2. <+> _ads2-,1
+||s.richaudience.com^$third-party,1
+||techpowerup.com/reviyu,1
+||beltenecottae.com^,1
+/publicit%c3%a9/*,1
+||facebook.com/tr?,1
+/includes/pop/* <+> /includes/ads.,1
+||broughtcontract.com^,1
+||damageddistance.com^,1
+||fulfilossuary.com^,1
+||pm.gamedistribution.com^,1
+||adlmerge.com^$third-party,1
+||sfstatic.net/build/js/chunk~revive-js-main-js,1
+||mobvista.com^$third-party,1
+||wheengesurrept.com^,1
+.com/adj/,1
+||bosselinorrummage.com^,1
+||sunmedia.tv^$third-party,1
+||trafficlide.com^$third-party,1
+/polyad.,1
+/adop.js,1
+||batiactu.com/cap_pub/,1
+://ad.*/native. <+> /adx/*/native.,1
+||shareasale.com/sale.cfm?amount=,1
+||i.ebayimg.com$domain=trackitonline.org|trackitonline.ru,1
+||dirdlabella.com^,1
+||live.whassup.fr/*&campaign=,1
+||pushinpage.com^$third-party,1
+||carasexe.name^$third-party,1
+||qhip.com^,1
+/AdConfig.aspx,1
+||shareaholic.com^$third-party,1
+_adblockdetector/,1
+||roofletdessous.com^,1
+||linksynergy.com^$third-party,1
+||amazonaws.com^$domain=anyanime.com|ay.gy|brain-magazine.fr|citethisforme.com|ddl1.best|despair-paradise.com|easybib.com|esgentside.com|filmuptobox.net|gamecopyworld.click|gamecopyworld.eu|gentside.com|gentside.com.br|gentside.de|gogoanime.io|gorillavid.com|inkapelis.com|istream2watch.com|maquillage.com|maxisciences.com|namemc.com|ohmirevista.com|ohmymag.com|ohmymag.com.br|ohmymag.de|pausefun.com|pausepeople.com|pelisplus.to|replaymod.com|solidfiles.com|stream2watch.org|tokenfly.pw|uploadcrazy.net|vercanalestv1.com|vosbooks.tv|watcheng.tv|zippyshare.com|zlshorte.net,1
+&adInstanceId=,1
+||beliefnormandygarbage.com^,1
+||isopodaupcock.com^,1
+||paarsvc.com^,1
+||medi-8.net^$third-party,1
+||autojournal.fr/wp-content/plugins/voiture-occasion/,1
+/ban/partenaires/*,1
+||ad-spire.net^$third-party,1
+||mirifelon.com^,1
+||clcktrax.com^$third-party,1
+/in-ad_desktop/* <+> _ads_desktop.,1
+/getappmsgAd?,1
+||cdn.escortdude.com/static/bn/,1
+||coappreciate.com^,1
+||ruedesjoueurs.com/images/articles-/promo/,1
+||pubstack.io^$third-party,1
+/ads_data_ <+> /ads_data/*,1
+/virtuagirl-,1
+||maison-travaux.fr/wp-content/uploads/sites/8/2021/04/deco.jpg,1
+||ad-score.com^$third-party,1
+||manga-news.com/public/bans/,1
+||batiactu.com/images/pub/,1
+||torrentgalaxy.to/common/images/*-lo.png,1
+||smart2cnjuh34jb.com^,1
+||mediasquare.fr^$third-party,1
+/iadbn?,1
+||algerie360.com/pub360/,1
+||popupmaker.com^$third-party,1
+||admissiondemeanourusage.com^,1
+/afiliados/*,1
+/adj?auid=,1
+/display/*&468&60 <+> /display/*&300&250 <+> /display/*&728&90 <+> /promo/*/display.,1
+/pub728. <+> /pub728-90.,1
+||ads-tracking.beop.io^,1
+||storage.googleapis.com/kompagnion/$third-party,1
+/va/ads/*,1
+||cloudfront.net/img/banner,1
+/banners/200x200/*,1
+/serve?*&w=728&h=90 <+> /serve.*/ads? <+> /serve?*&w=468&h=60 <+> ?zoneid=*&serve= <+> /serve?*&w=300&h=250 <+> /serve?*&w=160&h=600,1
+||hitek.fr/img/*-ban.,1
+||vidazoo.com/aggregate?,1
+||debonairdust.com^,1
+/pubs/300250/* <+> /300250.js <+> /media/300250. <+> /300250_2. <+> /Pub-300250.,1
+||pub.macommune.info^,1
+||t85itha3nitde.com^,1
+||cclpub.com^$third-party,1
+||crrepo.com^$third-party,1
+/script/suurl.php?r=,1
+/advertiserv2/*,1
+/doubleclick_dmm/*,1
+||energeticladybug.com^,1
+/ichhar/* <+> /ichhar.,1
+||swangylockjaw.com^,1
+||tpcserve.com^$third-party,1
+-advertising/tmg-gpt.,1
+||nestoria.fr/jsp/include/banners/,1
+||floosyvuggs.com^,1
+||hostcontent.live,1
+||leparking.fr/upload/partners/,1
+/campaigns/banner? <+> /banners_campaigns/*,1
+://a.*/loader?*&keywords=$third-party,1
+||ethers.io^$third-party,1
+||nend.net^$third-party,1
+.com.sa/ads/,1
+||aesopicmalchus.com^,1
+||static-dscn.net^$third-party,1
+/pubExchange.,1
+||oldenedkeymove.com^,1
+||bit.ly^$domain=nintendo-master.com|upload.ac,1
+||bakingbeheld.com^,1
+||takethshorter.com^,1
+/adsensebase.,1
+/pub-internet-300x150.,1
+||pronosoft.com/*/bookmakers/unibet/,1
+||easysexe.com^$third-party,1
+||keelieejidos.com^,1
+=600x100& <+> -banner_600x100.,1
+||niatapray.com^,1
+/adpage_,1
+||celebjihad.com/images/*.gif,1
+||electromenager-compare.com/images/main/*/pub.jpg,1
+/assets/abpe-,1
+||baitedblocs.com^,1
+||nuggad.net^$third-party,1
+_smartclick.js <+> /smartclick.js,1
+||wpushsdk.com^,1
+||videostep.com^$third-party,1
+||frandroid.com/plsbl/,1
+||othersides.top^,1
+||cpa-content.com^$third-party,1
+_1140x90.,1
+/ad-sidebar. <+> -ads-sidebar. <+> /sidebar-ad.,1
+||asumi.shinobi.jp^,1
+||upsendmusky.com^,1
+||bleachmx.fr/wp-content/uploads/bleach-,1
+||adschoom.com^$third-party,1
+/pub-responsive/* <+> /pub-responsive.,1
+||cheatedmisturn.com^,1
+||undom.net^,1
+||cstwpush.com^,1
+||greedypiotine.com^,1
+||shaiksuk.net^,1
+/adxAdmin/*,1
+||bevilmotives.com^,1
+||huggedpumpers.com^,1
+||fadedsnow.com^,1
+||jdoqocy.com^$third-party,1
+/blockadvertising/*,1
+||t4btv.com^$third-party,1
+||rapidgator.net/images/pics/,1
+||aftjohnanodes.com^,1
+||acuityplatform.com^$third-party,1
+||youtube.com^*autoplay=1$domain=eldjoumhouria.dz|hitek.fr|mon-compte.org,1
+||hostingcloud.racing,1
+||sufferamazia.com^,1
+||sersh.com^,1
+/pub_header. <+> /header-ads. <+> -ads-header.,1
+/plugins/vp_pub/*,1
+/component-ad-,1
+||soulackbooths.com^,1
+/internalAds/*,1
+/ad/*/160/* <+> /display/*&160&600,1
+||d1lxz4vuik53pc.cloudfront.net^,1
+||adskom.com^$third-party,1
+||ovularlinkup.com^,1
+||nr-data.net^$third-party,1
+||deplorablefaintest.com^,1
+/get_links_*&zone=,1
+/advertising-block. <+> =advertising-core- <+> _advertising_img. <+> /advertising-core/*,1
+-300x60_ <+> /300x60-,1
+?ad_domain= <+> _domain=ads.,1
+||secure.2checkout.com/images/merchant/$third-party,1
+.adfarm1.,1
+://banners2.$third-party,1
+||candidavulgo.com^,1
+||ssl-images-amazon.com^$domain=fdesouche.com|tempr.email|wikimonde.com,1
+||embedly.com^$domain=korben.info,1
+||dailycaller.com^,1
+||sfstatic.net/build/js/chunk~partnersBlock-js-main-js,1
+||broggerneven.com^,1
+||lesmobiles.com/img/mobile-banners/,1
+||ucoz.net/cgi/uutils.fcg?,1
+||micastpyridic.com^,1
+||tukif.com/webcams/,1
+/ad/ppid.js,1
+||ruedesjoueurs.com/images/banners/,1
+||fixitybowie.com^,1
+||undockstipend.com^,1
+/adsext/*,1
+||prefershapely.com^,1
+||assignlabor.com^,1
+||basnetoverpot.com^,1
+||tchatche.com/123m?,1
+||jolstatic.fr/www/skins/,1
+||bilkersteds.com^,1
+-728-180.,1
+||secure.avangate.com/images/merchant/$third-party,1
+||iqoption.com^,1
+||papizedromon.life^,1
+||wrapper.lemde.fr^,1
+||yospace.com/csm/,1
+||bestcontentwork.top^$third-party,1
+/ads16.,1
+/ad_placements/*,1
+/pubsky.php,1
+/EpubDelivery/*,1
+||boursier.com/illustrations/campaigns/,1
+||1clic1don.fr^,1
+||afilio.com.br^$third-party,1
+/banads/*,1
+||ezojs.com/ezoic/,1
+/banner_body.,1
+/DfpAd|,1
+/partner_banners/* <+> /partner-pub-,1
+/ads/top_ <+> /ads_top.,1
+||skittleunregal.com^,1
+||igg-games.com/wp-content/uploads/2024/03/f0ff3r-1.jpg,1
+||ssa.direct-running.fr^,1
+||adspsp.com^$third-party,1
+||alicdn.com^*_220x220.$domain=~alibaba.com|~aliexpress.com|~aliexpress.ru,1
+/adopdmp.,1
+/media-ads/*,1
+||videoadex.com^,1
+||ligatus.com^$third-party,1
+://adspaces.,1
+||leetmenllew.com^,1
+||gerbilshew.com^,1
+||sfstatic.net/build/js/chunk~propclick-js-main-js,1
+||onclckip.com^,1
+.jmpopups-,1
+||clickiocdn*.com^$third-party,1
+/display/items.*&,1
+||elasticchange.com^,1
+_iframe728x90.,1
+||advideo.ru^$third-party,1
+||netdna-ssl.com^,1
+/api/ads_,1
+||osmatecosh.com^,1
+||zupimages.net/up/21/14/7x9v.gif,1
+||furyprosecutionkitchen.com^,1
+||adrock.tv^$third-party,1
+||bereaveundresscrowded.com^,1
+||xn--ae-tja.ch^$third-party,1
+||kibejoyant.com^,1
+://adlik.,1
+||static.k2s.cc/images/i/,1
+||agazejagless.com^,1
+/event-adserver. <+> _event_pub.,1
+/ads_left. <+> /ads/left/*,1
+||admark.fr^$third-party,1
+||lerepairedesmotards.com/img/pub/,1
+/wbdds. <+> .wbdds.,1
+||static.keep2share.cc/images/i/,1
+://dc.ads.,1
+||heliumads.com^$third-party,1
+||conseils-courseapied.com/images/overstims/,1
+||tagsrvcs.com^$third-party,1
+/720x90. <+> ?style=720x90- <+> /720x90_dfp.,1
+||2.bp.blogspot.com/-9pkVLFyu5bw/W_n1R5ZXJYI/AAAAAAAAA5A/IQVV2P_BESwsbmjl2q1E9dr721zU_232wCLcBGAs/s1600/jack-icon.png,1
+||hellobar.com^$domain=application-remuneratrice.com|familyinblack.fr,1
+||facebook.net^*/fbevents.js$third-party,1
+||acceptablefabric.com^,1
+/include/popup. <+> /include/partenaires.,1

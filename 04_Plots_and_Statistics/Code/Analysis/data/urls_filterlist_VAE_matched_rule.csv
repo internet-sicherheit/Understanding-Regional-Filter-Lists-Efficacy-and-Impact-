@@ -1,0 +1,56 @@
+rule_filterlist_VAE,blocked_etld
+/bnr_300. <+> /images/bnr_,287
+_adunit_$domain=~tv2.dk,14
+-300-250-,13
+-ad-300x250-,10
+/%d8%a5%d8%b9%d9%84%d8%a7%d9%86-,7
+/728x90+ <+> -ad-728x90-,7
+%20728x90%20,5
+-right-ads/,4
+&ad_size=,4
+/AdSense.min.,3
+-600x120.,3
+/adunit_,3
+/files/adv/*,3
+/ArticleAds.,3
+/%D8%A7%D8%B9%D9%84%D8%A7%D9%86. <+> /%D8%A7%D8%B9%D9%84%D8%A7%D9%86-,2
+/projectagora.min.js,2
+.js?pubId=,2
+||fortvision.com^$third-party,1
+||ahram.org.eg/Media/Banners/,1
+||jubnaadserve.com^$third-party,1
+||zarpop.com^$third-party,1
+||ftd.agency^$third-party,1
+.ps/ads/,1
+||backtory.com^$third-party,1
+/affiliate_base/*,1
+||clicksegypt.net^$third-party,1
+||masrawy.com/scripts/article.js,1
+/delivery/*.php?zone=,1
+||sonara.net/banners/,1
+||zotabox.com^*/widgets.js$third-party,1
+||cloudfront.net^$domain=wifi4games.com,1
+||b8cdn.com^*/affiliate-,1
+://partners.*/widget/$third-party,1
+/vb/*/bnr.gif <+> /bnr_*&pub=,1
+/en/elan/*,1
+||belboon.com^$third-party,1
+/ads/*/banners_,1
+/partner_ad_,1
+||gecko.me^$third-party,1
+||ban.alukah.net^,1
+/PubadsDesktop.,1
+||yektanet.com^$third-party,1
+||geminimedia-eg.com^$third-party,1
+||ketshwa.com^$third-party,1
+/pub_header_,1
+/side-ads|,1
+||erate.co.il^$third-party,1
+||powerspace.com^$third-party,1
+/adv?auid=,1
+||yallakora.com/scripts/article.js,1
+||kooora.com/banners/,1
+||arabx.cam/161.jpg,1
+||pabidding.io^$third-party,1
+||static.hugedomains.com/images/$third-party,1
+/opensooqads.,1

@@ -1,0 +1,25 @@
+ID;CountryName;URL
+1;Germany;https://github.com/easylist/easylistgermany
+2;China;https://github.com/easylist/easylistchina
+3;Czech Republic and Slovakia;https://github.com/easylist/easylistczechandslovak
+4;Italy;https://github.com/easylist/easylistitaly
+5;France;https://github.com/easylist/liste_fr
+6;Netherlands;https://github.com/easylist/easylistdutch
+7;Poland;https://github.com/easylistpolish/easylistpolish
+8;Latvia;https://github.com/AndrisRielens/adblock-latvian
+9;Israel;https://github.com/easylist/easylisthebrew
+10;Spain;https://github.com/adblockfiltros/filtros-adblock
+11;Bulgaria;https://github.com/kepbod/abp-bg
+12;Portugal;https://github.com/abp-filters/filterlist-portal
+13;Arabic-speaking countries;https://github.com/Liste-AR/Adblock-Plus-AR
+14;Greece;https://github.com/easylist/easylistgreece
+15;Lithuania;https://github.com/easylist/easylistlithuania
+16;Russia;https://github.com/RUAdList
+17;Vietnam;https://github.com/abpvn/abpvn
+18;Japan;https://github.com/k2jp/abpjf
+19;Norway;https://github.com/kjetil-kvalsvik/norwegian-list
+20;Iceland;https://github.com/dnsfilter/islist
+21;Romania;https://github.com/iam-py-test/ROList
+22;Korea;https://github.com/yous/YousList
+23;EasyPrivacy;https://github.com/easylist/easylist
+

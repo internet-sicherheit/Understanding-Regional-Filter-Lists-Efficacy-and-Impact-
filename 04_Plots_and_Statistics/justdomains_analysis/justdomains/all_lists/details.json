@@ -1,0 +1,951 @@
+[
+    {
+        "Title": "China Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/China.txt",
+        "Base Output Filename": "China-{FORMAT}.txt",
+        "Header": {},
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                18997
+            ],
+            [
+                "Comment Lines",
+                0
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                13045
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                162
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                11
+            ],
+            [
+                "Domain-only Rules Output",
+                5779
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "China-justdomains.txt"
+        },
+        "Domains Output": 5779
+    },
+    {
+        "Title": "France Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/France.txt",
+        "Base Output Filename": "France-{FORMAT}.txt",
+        "Header": {},
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                20393
+            ],
+            [
+                "Comment Lines",
+                0
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                11217
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                929
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                0
+            ],
+            [
+                "Domain-only Rules Output",
+                8247
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "France-justdomains.txt"
+        },
+        "Domains Output": 8247
+    },
+    {
+        "Title": "Germany Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/Germany.txt",
+        "Base Output Filename": "Germany-{FORMAT}.txt",
+        "Header": {},
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                5532
+            ],
+            [
+                "Comment Lines",
+                0
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                5060
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                95
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                6
+            ],
+            [
+                "Domain-only Rules Output",
+                371
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "Germany-justdomains.txt"
+        },
+        "Domains Output": 371
+    },
+    {
+        "Title": "Indian Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/Indian.txt",
+        "Base Output Filename": "Indian-{FORMAT}.txt",
+        "Header": {},
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                8888
+            ],
+            [
+                "Comment Lines",
+                0
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                8826
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                47
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                0
+            ],
+            [
+                "Domain-only Rules Output",
+                15
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "Indian-justdomains.txt"
+        },
+        "Domains Output": 15
+    },
+    {
+        "Title": "Israel Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/Israel.txt",
+        "Base Output Filename": "Israel-{FORMAT}.txt",
+        "Header": {},
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                1233
+            ],
+            [
+                "Comment Lines",
+                0
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                867
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                217
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                1
+            ],
+            [
+                "Domain-only Rules Output",
+                148
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "Israel-justdomains.txt"
+        },
+        "Domains Output": 148
+    },
+    {
+        "Title": "Japanese Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/Japanese.txt",
+        "Base Output Filename": "Japanese-{FORMAT}.txt",
+        "Header": {},
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                5633
+            ],
+            [
+                "Comment Lines",
+                0
+            ],
+            [
+                "Empty Lines",
+                1
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                4943
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                33
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                39
+            ],
+            [
+                "Domain-only Rules Output",
+                618
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "Japanese-justdomains.txt"
+        },
+        "Domains Output": 618
+    },
+    {
+        "Title": "Scandinavia Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/Scandinavia.txt",
+        "Base Output Filename": "Scandinavia-{FORMAT}.txt",
+        "Header": {},
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                6618
+            ],
+            [
+                "Comment Lines",
+                0
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                5798
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                221
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                36
+            ],
+            [
+                "Domain-only Rules Output",
+                563
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "Scandinavia-justdomains.txt"
+        },
+        "Domains Output": 563
+    },
+    {
+        "Title": "USA Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/USA.txt",
+        "Base Output Filename": "USA-{FORMAT}.txt",
+        "Header": {},
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                74576
+            ],
+            [
+                "Comment Lines",
+                0
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                27196
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                5029
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                64
+            ],
+            [
+                "Domain-only Rules Output",
+                42287
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "USA-justdomains.txt"
+        },
+        "Domains Output": 42287
+    },
+    {
+        "Title": "VAE Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/VAE.txt",
+        "Base Output Filename": "VAE-{FORMAT}.txt",
+        "Header": {},
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                1850
+            ],
+            [
+                "Comment Lines",
+                0
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                1694
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                97
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                0
+            ],
+            [
+                "Domain-only Rules Output",
+                59
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "VAE-justdomains.txt"
+        },
+        "Domains Output": 59
+    },
+    {
+        "Title": "RU_AdList Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/RU_AdList.txt",
+        "Base Output Filename": "RU_AdList-{FORMAT}.txt",
+        "Header": {
+            "Version": "202309081331",
+            "Last Modified": "08 Sep 2023 13:31 UTC",
+            "Title": "RU AdList",
+            "Homepage": "https://forums.lanik.us/viewforum.php?f=102"
+        },
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                26072
+            ],
+            [
+                "Comment Lines",
+                292
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                16264
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                1062
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                2891
+            ],
+            [
+                "Domain-only Rules Output",
+                5563
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "RU_AdList-justdomains.txt"
+        },
+        "Domains Output": 5563
+    },
+    {
+        "Title": "EasyList_Spanish Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/EasyList_Spanish.txt",
+        "Base Output Filename": "EasyList_Spanish-{FORMAT}.txt",
+        "Header": {
+            "Version": "202309081320",
+            "Last Modified": "08 Sep 2023 13:20 UTC",
+            "License": "https://easylist.to/pages/licence.html",
+            "Title": "EasyList Spanish",
+            "Homepage": "https://easylist.to/"
+        },
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                2982
+            ],
+            [
+                "Comment Lines",
+                75
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                2492
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                120
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                1
+            ],
+            [
+                "Domain-only Rules Output",
+                294
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "EasyList_Spanish-justdomains.txt"
+        },
+        "Domains Output": 294
+    },
+    {
+        "Title": "EasyList_Italy Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/EasyList_Italy.txt",
+        "Base Output Filename": "EasyList_Italy-{FORMAT}.txt",
+        "Header": {
+            "Version": "202309081320",
+            "Last Modified": "08 Sep 2023 13:20 UTC",
+            "Title": "EasyList Italy",
+            "Homepage": "https://easylist.to/"
+        },
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                7176
+            ],
+            [
+                "Comment Lines",
+                52
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                6866
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                64
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                6
+            ],
+            [
+                "Domain-only Rules Output",
+                188
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "EasyList_Italy-justdomains.txt"
+        },
+        "Domains Output": 188
+    },
+    {
+        "Title": "ABPVN_List Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/ABPVN_List.txt",
+        "Base Output Filename": "ABPVN_List-{FORMAT}.txt",
+        "Header": {
+            "Version": "20230908191916",
+            "Last Modified": "08 Sep 2023 19:19:16 UTC+7",
+            "License": "GPLv3 (https://github.com/abpvn/abpvn/blob/master/LICENSE)",
+            "Title": "ABPVN List",
+            "Homepage": "https://abpvn.com/"
+        },
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                1404
+            ],
+            [
+                "Comment Lines",
+                22
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                1294
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                23
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                1
+            ],
+            [
+                "Domain-only Rules Output",
+                64
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "ABPVN_List-justdomains.txt"
+        },
+        "Domains Output": 64
+    },
+    {
+        "Title": "KoreanList Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/KoreanList.txt",
+        "Base Output Filename": "KoreanList-{FORMAT}.txt",
+        "Header": {
+            "Version": "202309081331",
+            "Last Modified": "08 Sep 2023 13:31 UTC",
+            "License": "https://easylist.to/pages/licence.html",
+            "Title": "KoreanList",
+            "Homepage": "https://forums.lanik.us/viewforum.php?f=111"
+        },
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                1119
+            ],
+            [
+                "Comment Lines",
+                34
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                1024
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                37
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                0
+            ],
+            [
+                "Domain-only Rules Output",
+                24
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "KoreanList-justdomains.txt"
+        },
+        "Domains Output": 24
+    },
+    {
+        "Title": "easylistczechandslovak Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/easylistczechandslovak.txt",
+        "Base Output Filename": "easylistczechandslovak-{FORMAT}.txt",
+        "Header": {
+            "License": "CC-BY-SA v4.0",
+            "Title": "Easylist Czech and Slovak filter list",
+            "Homepage": "http://adblock.sk"
+        },
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                566
+            ],
+            [
+                "Comment Lines",
+                53
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                419
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                2
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                2
+            ],
+            [
+                "Domain-only Rules Output",
+                90
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "easylistczechandslovak-justdomains.txt"
+        },
+        "Domains Output": 90
+    },
+    {
+        "Title": "ABPindo Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/ABPindo.txt",
+        "Base Output Filename": "ABPindo-{FORMAT}.txt",
+        "Header": {
+            "Version": "202309081059",
+            "Last Modified": "08 Sep 2023 10:59 UTC",
+            "License": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE",
+            "Title": "ABPindo",
+            "Homepage": "https://github.com/ABPindo/indonesianadblockrules/"
+        },
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                9128
+            ],
+            [
+                "Comment Lines",
+                41
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                8497
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                147
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                0
+            ],
+            [
+                "Domain-only Rules Output",
+                443
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "ABPindo-justdomains.txt"
+        },
+        "Domains Output": 443
+    },
+    {
+        "Title": "EasyList_Portuguese Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/EasyList_Portuguese.txt",
+        "Base Output Filename": "EasyList_Portuguese-{FORMAT}.txt",
+        "Header": {
+            "Version": "202309081320",
+            "Last Modified": "08 Sep 2023 13:20 UTC",
+            "License": "https://easylist.to/pages/licence.html",
+            "Title": "EasyList Portuguese",
+            "Homepage": "https://easylist.to/"
+        },
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                1520
+            ],
+            [
+                "Comment Lines",
+                67
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                1247
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                41
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                0
+            ],
+            [
+                "Domain-only Rules Output",
+                165
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "EasyList_Portuguese-justdomains.txt"
+        },
+        "Domains Output": 165
+    },
+    {
+        "Title": "latvian-list Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/latvian-list.txt",
+        "Base Output Filename": "latvian-list-{FORMAT}.txt",
+        "Header": {
+            "Version": "202302101116",
+            "Last Modified": "2023-02-10 11:16 UTC",
+            "License": "CC BY-SA 4.0  https://creativecommons.org/licenses/by-sa/4.0/",
+            "Title": "Latvian List",
+            "Homepage": "https://github.com/Latvian-List/adblock-latvian"
+        },
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                420
+            ],
+            [
+                "Comment Lines",
+                36
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                341
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                4
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                2
+            ],
+            [
+                "Domain-only Rules Output",
+                37
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "latvian-list-justdomains.txt"
+        },
+        "Domains Output": 37
+    },
+    {
+        "Title": "easylistlithuania Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/easylistlithuania.txt",
+        "Base Output Filename": "easylistlithuania-{FORMAT}.txt",
+        "Header": {
+            "Version": "26September2023v1",
+            "Title": "EasyList Lithuania",
+            "Homepage": "https://github.com/EasyList-Lithuania/easylist_lithuania"
+        },
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                1219
+            ],
+            [
+                "Comment Lines",
+                31
+            ],
+            [
+                "Empty Lines",
+                2
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                1148
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                13
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                1
+            ],
+            [
+                "Domain-only Rules Output",
+                26
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "easylistlithuania-justdomains.txt"
+        },
+        "Domains Output": 26
+    },
+    {
+        "Title": "EasyList_Polish Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/EasyList_Polish.txt",
+        "Base Output Filename": "EasyList_Polish-{FORMAT}.txt",
+        "Header": {
+            "Version": "202309081320",
+            "Last Modified": "08 Sep 2023 13:20 UTC",
+            "License": "https://easylist.to/pages/licence.html",
+            "Title": "EasyList Polish",
+            "Homepage": "https://easylist.to/"
+        },
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                2645
+            ],
+            [
+                "Comment Lines",
+                42
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                2526
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                41
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                0
+            ],
+            [
+                "Domain-only Rules Output",
+                36
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "EasyList_Polish-justdomains.txt"
+        },
+        "Domains Output": 36
+    },
+    {
+        "Title": "EasyList_Dutch Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/EasyList_Dutch.txt",
+        "Base Output Filename": "EasyList_Dutch-{FORMAT}.txt",
+        "Header": {
+            "Version": "202309081320",
+            "Last Modified": "08 Sep 2023 13:20 UTC",
+            "License": "https://easylist.to/pages/licence.html",
+            "Title": "EasyList Dutch",
+            "Homepage": "https://easylist.to/"
+        },
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                1253
+            ],
+            [
+                "Comment Lines",
+                47
+            ],
+            [
+                "Empty Lines",
+                0
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                1164
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                3
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                2
+            ],
+            [
+                "Domain-only Rules Output",
+                37
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "EasyList_Dutch-justdomains.txt"
+        },
+        "Domains Output": 37
+    },
+    {
+        "Title": "Bulgarian_List Filterlist",
+        "Source": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/Bulgarian_List.txt",
+        "Base Output Filename": "Bulgarian_List-{FORMAT}.txt",
+        "Header": {
+            "Title": "Bulgarian adblock list",
+            "Homepage": "https://stanev.org/abp"
+        },
+        "Conversion": [
+            [
+                "Total Lines Processed",
+                1080
+            ],
+            [
+                "Comment Lines",
+                17
+            ],
+            [
+                "Empty Lines",
+                1
+            ],
+            [
+                "Non-Domain-only Rules Excluded",
+                1059
+            ],
+            [
+                "Domain-only Rules Excluded (unsupported options)",
+                0
+            ],
+            [
+                "Domain-only Rules Excluded (exception conflict)",
+                0
+            ],
+            [
+                "Domain-only Rules Output",
+                4
+            ]
+        ],
+        "Output Formats": {
+            "Just Domains": "Bulgarian_List-justdomains.txt"
+        },
+        "Domains Output": 4
+    }
+]

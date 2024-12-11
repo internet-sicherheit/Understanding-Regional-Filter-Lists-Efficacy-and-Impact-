@@ -1,0 +1,112 @@
+[
+    {
+        "name": "China Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/China.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "France Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/France.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "Germany Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/Germany.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "Indian Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/Indian.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "Israel Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/Israel.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "Japanese Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/Japanese.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "Scandinavia Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/Scandinavia.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "USA Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/USA.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "VAE Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../adblock_test/VAE.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "RU_AdList Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/RU_AdList.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "EasyList_Spanish Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/EasyList_Spanish.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "EasyList_Italy Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/EasyList_Italy.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "ABPVN_List Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/ABPVN_List.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "KoreanList Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/KoreanList.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "easylistczechandslovak Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/easylistczechandslovak.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "ABPindo Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/ABPindo.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "EasyList_Portuguese Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/EasyList_Portuguese.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "latvian-list Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/latvian-list.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "easylistlithuania Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/easylistlithuania.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "EasyList_Polish Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/EasyList_Polish.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "EasyList_Dutch Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/EasyList_Dutch.txt",
+        "format": "adbp"
+    },
+    {
+        "name": "Bulgarian_List Filterlist",
+        "url": "file://C:/Users/boett/Documents/GitHub/2024-filterlists/resources/filterlists/../../Code/Filterlist/filter_lists/Bulgarian_List.txt",
+        "format": "adbp"
+    }
+]
