@@ -61,7 +61,7 @@ Main purpose of this project is:
 ## Installation 
 ```
 Git clone
-cd filterlists-2024-pets
+cd Understanding-Regional-Filter-Lists-Efficacy-and-Impact-
 pip install -r requirements.txt
 ```
 
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 For using BigQuery as database, store the key as JSON under
 
 ```
-filterlists-2024-pets/resources/google_bkp.json
+Understanding-Regional-Filter-Lists-Efficacy-and-Impact-/resources/google_bkp.json
 ```
 
 ## Usage
