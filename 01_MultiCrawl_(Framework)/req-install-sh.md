@@ -17,8 +17,7 @@ unzip xrdp-installer-1.4.2.zip
 chmod 777 xrdp-installer-1.4.2.sh
 ./xrdp-installer-1.4.2.sh
 
-passwd 
-# pass: ifis.2024#
+passwd
 
 #miniforgeifis
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
@@ -63,9 +62,6 @@ chmod -R 777 *
 
 sudo apt install build-essential -y
 
-# demir@internet-sicherheit.de
-# pass: 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
-
 ./install.sh
 
 conda activate openwpm
@@ -73,7 +69,6 @@ pip install -r req-pip.txt
 mkdir /home/ubuntu/openwpm
 touch /home/ubuntu/openwpm/openwpm.log
 sudo passwd ubuntu
-#### give pass: nurullah
 sudo reboot
 
 # sudo apt install software-properties-common apt-transport-https wget 
