@@ -148,6 +148,7 @@ After collecting the domains, insert them into a PostgreSQL database for each lo
 | id  | rank | subpages | scheme | subpages_count | state_scheme | state_subpages | site_state | ready | state_openwpm_native_{country iso2} | in_scope | categorie | under_categorie | timeout | openwpm_native_{country iso2} |
 |------|------|----------|--------|----------------|--------------|----------------|------------|-------|------------------------------------|----------|-----------|-----------------|---------|--------------------------------|
 
+For each measurement location, one table is necessary.
 
 #### Set up the measurement points ####
 First of all, the user needs to [host an EC2 instance (T3.2xlarge)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html) for the specific location (e.g., Tokyo). Choose Ubuntu 20.04 LTS as OS for the example and create a key pair.
