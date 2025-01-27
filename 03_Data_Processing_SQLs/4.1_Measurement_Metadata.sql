@@ -1,8 +1,8 @@
 # Successfully visited sites
-SELECT visited_sites, visited_sites/90000 * 100 as percentage_from_scope FROM (SELECT count(*) as visited_sites FROM (SELECT distinct etld FROM measurement.requests));
+SELECT visited_sites, visited_sites/90000 * 100 as percentage_from_scope FROM (SELECT count(*) as visited_sites FROM (SELECT distinct etld FROM filterlists.measurement.requests));
 
 # Successfully visited pages
-SELECT count(*) as visited_pages FROM (SELECT distinct url FROM measurement.requests);
+SELECT count(*) as visited_pages FROM (SELECT distinct url FROM filterlists.measurement.requests);
 
 # Min, Max, SD pages per side
 
@@ -23,7 +23,7 @@ FROM (
       subpage_id,
       COUNT(DISTINCT subpage_id) AS number_of_subpages
     FROM
-      measurement.requests
+      filterlists.measurement.requests
     GROUP BY
       browser_id,
       site_id,
