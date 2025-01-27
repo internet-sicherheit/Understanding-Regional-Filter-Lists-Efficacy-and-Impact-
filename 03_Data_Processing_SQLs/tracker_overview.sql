@@ -1,11 +1,11 @@
 # 4.9.1 Number of requets blocked by EasyList
-SELECT count(*) AS number, (count(*) / (SELECT count(*) FROM measurement.requests ) * 100) AS perc,
-FROM `measurement.requests`
+SELECT count(*) AS number, (count(*) / (SELECT count(*) FROM filterlists.measurement.requests ) * 100) AS perc,
+FROM `filterlists.measurement.requests`
 WHERE filterlist_USA_is_blocked;
 
 # 4.9.2 Number of blocked eTLD+1 by EasyList
 SELECT count(*) AS blocked_etld1,
-FROM (SELECT DISTINCT(etld) FROM `measurement.requests` WHERE filterlist_USA_is_blocked);
+FROM (SELECT DISTINCT(etld) FROM `filterlists.measurement.requests` WHERE filterlist_USA_is_blocked);
 
 # 4.9.4
 
@@ -27,14 +27,14 @@ SELECT
   COUNTIF(filterlist_USA_is_blocked) AS blocked_by_USA,
   COUNTIF(filterlist_VAE_is_blocked) AS blocked_by_VAE
 FROM
-  measurement.requests
+  filterlists.measurement.requests
 GROUP BY browser_id;
 
 
 # blocked by US list AND other list
 
 SELECT COUNT(*) AS number, (COUNT(*) / (SELECT COUNT(*)FROM `measurement.requests` WHERE filterlist_USA_is_blocked)*100) AS sahre
-FROM `measurement.requests`
+FROM `filterlists.measurement.requests`
 WHERE filterlist_USA_is_blocked AND (filterlist_China_is_blocked OR filterlist_France_is_blocked OR filterlist_Germany_is_blocked OR filterlist_Indian_is_blocked OR filterlist_Israel_is_blocked OR filterlist_Japanese_is_blocked OR filterlist_Scandinavia_is_blocked OR filterlist_VAE_is_blocked);
 
 
@@ -49,5 +49,5 @@ SELECT
   COUNTIF(filterlist_Scandinavia_is_blocked) AS blocked_by_Scandinavia,
   COUNTIF(filterlist_USA_is_blocked) AS blocked_by_USA,
   COUNTIF(filterlist_VAE_is_blocked) AS blocked_by_VAE
-FROM `measurement.requests`
+FROM `filterlists.measurement.requests`
 WHERE filterlist_USA_is_blocked
