@@ -5,7 +5,7 @@ FROM (
     "China" AS country,
     COUNT(*) AS detected
   FROM
-    measurement.requests_backup
+    filterlists.measurement.requests_backup
   WHERE
     is_tracker=1
     AND filterlist_China_is_blocked
@@ -16,7 +16,7 @@ FROM (
     "USA" AS country,
     COUNT(*) AS detected
   FROM
-    measurement.requests_backup
+    filterlists.measurement.requests_backup
   WHERE
     is_tracker=1
     AND filterlist_USA_is_blocked
@@ -27,7 +27,7 @@ FROM (
     "VAE" AS country,
     COUNT(*) AS detected
   FROM
-    measurement.requests_backup
+    filterlists.measurement.requests_backup
   WHERE
     is_tracker=1
     AND filterlist_VAE_is_blocked
@@ -38,7 +38,7 @@ FROM (
     "Indian" AS country,
     COUNT(*) AS detected
   FROM
-    measurement.requests_backup
+    filterlists.measurement.requests_backup
   WHERE
     is_tracker=1
     AND filterlist_Indian_is_blocked
@@ -49,7 +49,7 @@ FROM (
     "Japanese" AS country,
     COUNT(*) AS detected
   FROM
-    measurement.requests_backup
+    filterlists.measurement.requests_backup
   WHERE
     is_tracker=1
     AND filterlist_Japanese_is_blocked
@@ -60,7 +60,7 @@ FROM (
     "Scandinavia" AS country,
     COUNT(*) AS detected
   FROM
-    measurement.requests_backup
+    filterlists.measurement.requests_backup
   WHERE
     is_tracker=1
     AND filterlist_Scandinavia_is_blocked
@@ -71,7 +71,7 @@ FROM (
     "Indian_cleaned" AS country,
     COUNT(*) AS detected
   FROM
-    measurement.requests_backup
+    filterlists.measurement.requests_backup
   WHERE
     is_tracker=1
     AND filterlist_Indian_cleaned_is_blocked
@@ -82,7 +82,7 @@ FROM (
     "Israel" AS country,
     COUNT(*) AS detected
   FROM
-    measurement.requests_backup
+    filterlists.measurement.requests_backup
   WHERE
     is_tracker=1
     AND filterlist_Israel_is_blocked
@@ -93,7 +93,7 @@ FROM (
     "Germany" AS country,
     COUNT(*) AS detected
   FROM
-    measurement.requests_backup
+    filterlists.measurement.requests_backup
   WHERE
     is_tracker=1
     AND filterlist_Germany_is_blocked
@@ -104,7 +104,7 @@ FROM (
     "France" AS country,
     COUNT(*) AS detected
   FROM
-    measurement.requests_backup
+    filterlists.measurement.requests_backup
   WHERE
     is_tracker=1
     AND filterlist_France_is_blocked
