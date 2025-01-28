@@ -301,8 +301,6 @@ def create_stacked_ba2r(df):
 
     plt.tight_layout()
     plt.show()
-
-    plt.savefig("C:/tmp/pow/git_commit_analysis_types.pdf", format='pdf')
     
 import matplotlib.pyplot as plt
 import numpy as np
@@ -408,7 +406,6 @@ def create_stacked_bar_subplot_for_each_filterlist(df):
     for idx in range(num_repositories, len(axes)):
         fig.delaxes(axes[idx])
 
-    plt.savefig("C:/tmp/pow/all_filterlists_subplots_adjusted.pdf", format='pdf')
     plt.show()
     
 def create_stacked_bar_subplot_adds_removals(df):
@@ -487,7 +484,7 @@ def create_stacked_bar_subplot_adds_removals(df):
     ]
     fig.legend(handles=legend_elements, title="Change Type", loc='lower center', bbox_to_anchor=(0.8, 0.1), ncol=2, fontsize=16)
 
-    plt.savefig("C:/tmp/pow/all_filterlists_subplots_adjusted.pdf", format='pdf', bbox_inches='tight')
+
     plt.show()
 
 
@@ -889,7 +886,7 @@ def analyse_on_commit_type(df):
 
 
 if __name__ == "__main__":
-    path = os.path.join(os.getcwd(), '..', '..', '02_Measurement_Data' ,"filterlisten - githubs/")
+    path = os.path.join(os.getcwd(), '..', '..', '..', '02_Measurement_Data' ,"filterlisten - githubs/")
 
     dir = os.listdir(path)
 
