@@ -351,7 +351,7 @@ def cluster(data):
     cluster_info(labels_dbscan)
 
     print("##### HDBSCAN #####")
-    hdb = hdbscan.HDBSCAN(metric="precomputed")
+    hdb = hdbscan.HDBSCAN()#metric="precomputed")
     hdbscan_fit = hdb.fit(distance_matrix)
     hdbscan_labels = hdbscan_fit.labels_
     cluster_info(hdbscan_labels)
