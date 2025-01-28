@@ -16,8 +16,8 @@ from sklearn.cluster import OPTICS
 import matplotlib.pyplot as plt
 import matplotlib.colors as LogNorm
 
-INPUT_DIR = os.path.join(os.getcwd(), '..', 'Filterlist', 'sanitized_lists')
-PATH_CSV = os.path.join(os.getcwd(), '..', 'Filterlist', 'all_easylist.txt')
+INPUT_DIR = os.path.join(os.getcwd(), '..', '..', 'Filterlist', 'sanitized_lists')
+PATH_CSV = os.path.join(os.getcwd(), '..','..', 'Filterlist', 'all_easylist.txt')
 OUTPUT_FOLDER = os.path.join(os.getcwd(), 'easylists')
 ALL_FILTER_RULES = dict()
 FILTER_RULE_THRESHOLD = 20
