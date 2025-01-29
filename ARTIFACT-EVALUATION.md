@@ -340,7 +340,13 @@ Please note that under
 ```python
 path = os.path.join(os.getcwd(), '..', '..', '02_Measurement_Data' ,"filterlisten - githubs/")
 ```
-The data for the analysis have to be stored.
+The data for the analysis have to be stored. Therefore, you need to download the files under (Zendo)[https://doi.org/10.5281/zenodo.14390278]. Is it necessary to create a structure like 
+```
+Understanding-Regional-Filter-Lists-Efficacy-and-Impact
+│── 02_Measurement_Data  
+│   ├── filterlisten – githubs  
+│   ├── runtime_analysis 
+```
 
 #### Experiment 6: Runtime Analysis
 To capture the data for the runtime analysis, use the Rust script
