@@ -10,3 +10,7 @@ the data as gzip-files over a cloud hosting service.
 
 GitHub Repositories and data for runtime analysis: 
 * https://doi.org/10.5281/zenodo.14390278
+
+## Backup
+
+The data can also be found on a [Sciebo](https://w-hs.sciebo.de/s/su7B11bXII1a1A4) folder as part of the backup.
