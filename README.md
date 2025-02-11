@@ -1,5 +1,5 @@
-# Protected Designation of Origin - An Analysis of Efficacy in Regional Filterlists
-This repository contains supplementary material to the paper "Protected Designation of Origin - An Analysis of Efficacy in Regional Filterlists" submitted to PETS 2025.
+# Understanding Regional Filter Lists Efficacy and Impact
+This repository contains supplementary material to the paper "Understanding Regional Filter Lists Efficacy and Impact" submitted to PETS 2025.
 
 
 This repository contains additional material to the paper "A Large-Scale Study of Cookie Banner Interaction Tools and Their Impact on Users’ Privacy," accepted at the *23rd Privacy Enhancing Technologies Symposium 2024 (PETS)*. 
