@@ -2,9 +2,7 @@
 
 ## BigQuery
 
-Currently, we provide a link to the [Big Query dataset](https://console.cloud.google.com/bigquery?project=filterlists&inv=1&invt=Abj0cQ&ws=!1m0)
-because it is easier for the reviewer to access the data. In the future, we will provide
-the data as gzip-files over a cloud hosting service.
+The data from BigQuery tables cookies, requests, and responses are now available in the [Sciebo](https://w-hs.sciebo.de/s/su7B11bXII1a1A4) folder. The tables are stored in multiple JSON files and compressed as zip files. Please note that working with those data needs changes in all scripts since no SQL queries are necessary. By using other databases (e.g. PostgreSQL) changes in the query structure are needed.
 
 ## Additional data
 
