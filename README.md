@@ -23,14 +23,14 @@ If you want to use our artifact, you can cite our [paper]():
 
 ```
 @article{,
-  title = {},
-  author = {},
+  title = {Understanding Regional Filter Lists: Efficacy and Impact},
+  author = {Christian Böttger (Institute for Internet Security; Westphalian University of Applied Sciences), Nurullah Demir (Institute for Internet Security; Westphalian University of Applied Sciences), Jan Hörnemann (AWARE7 GmbH), Bhupendra Acharya (CISPA), Norbert Pohlmann (Institute for Internet Security; Westphalian University of Applied Sciences), Thorsten Holz (CISPA), Matteo Grosse-Kampmann (Rhine-Waal University of Applied Sciences and AWARE7 GmbH), Tobias Urban (Institute for Internet Security; Westphalian University of Applied Sciences)},
   journal = {Proceedings on Privacy Enhancing Technologies},
   volume = {2025}, 
   year ={2025},
   series = {PoPETS~'25}, 
-  doi = {}
-  url= {}
+  doi = {https://doi.org/10.56553/popets-2025-0063}
+  url= {https://petsymposium.org/popets/2025/popets-2025-0063.pdf}
 }
 ```
 
