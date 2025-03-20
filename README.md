@@ -2,7 +2,7 @@
 This repository contains supplementary material to the paper "Understanding Regional Filter Lists Efficacy and Impact" submitted to PETS 2025.
 
 
-This repository contains additional material to the paper "A Large-Scale Study of Cookie Banner Interaction Tools and Their Impact on Users’ Privacy," accepted at the *23rd Privacy Enhancing Technologies Symposium 2024 (PETS)*. 
+This repository contains additional material to the paper "Understanding Regional Filter Lists Efficacy and Impact" accepted at the *23rd Privacy Enhancing Technologies Symposium 2024 (PETS)*. 
 
 In this repository, we provide __everything__ we have used in our study: tools, code, raw and processed measurement data, data processing pipeline, and the code for generating plots and statistics to reproduce our study's results.
 
